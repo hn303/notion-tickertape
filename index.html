@@ -15,104 +15,84 @@
       </div>
     </div>
     <!-- TradingView Light Widget BEGIN -->
-    <div class="tradingview-widget-container" id="light">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Ticker Tape</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
-        async
-      >
-        {
-          "symbols": [
-            {
-              "proName": "FOREXCOM:SPXUSD",
-              "title": "S&P 500"
-            },
-            {
-              "proName": "FOREXCOM:NSXUSD",
-              "title": "Nasdaq 100"
-            },
-            {
-              "proName": "TSX:TSX",
-              "title": "S&P/TSX Composite"
-            },
-            {
-              "description": "BTC",
-              "proName": "CAPITALCOM:BTCCAD"
-            },
-            {
-              "description": "ETH",
-              "proName": "CAPITALCOM:ETHCAD"
-            },
-            {
-              "description": "USD/CAD",
-              "proName": "FX:USDCAD"
-            }
-          ],
-          "showSymbolLogo": true,
-          "colorTheme": "light",
-          "isTransparent": true,
-          "displayMode": "regular",
-          "locale": "en"
-        }
-      </script>
-    </div>
+<div class="tradingview-widget-container" id="light">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "description": "深圳成指",
+      "proName": "SZSE:399106"
+    },
+    {
+      "description": "上证指数",
+      "proName": "SSE:000001"
+    },
+    {
+      "description": "英镑/人民币",
+      "proName": "FX_IDC:GBPCNY"
+    },
+    {
+      "description": "美元/人民币",
+      "proName": "FX_IDC:USDCNY"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "zh_CN"
+}
+  </script>
+</div>
     <!-- TradingView Widget END -->
     <!-- TradingView Dark Widget BEGIN -->
-    <div class="tradingview-widget-container" id="dark">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Ticker Tape</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
-        async
-      >
-        {
-          "symbols": [
-            {
-              "proName": "FOREXCOM:SPXUSD",
-              "title": "S&P 500"
-            },
-            {
-              "proName": "FOREXCOM:NSXUSD",
-              "title": "Nasdaq 100"
-            },
-            {
-              "proName": "TSX:TSX",
-              "title": "S&P/TSX Composite"
-            },
-            {
-              "description": "BTC",
-              "proName": "CAPITALCOM:BTCCAD"
-            },
-            {
-              "description": "ETH",
-              "proName": "CAPITALCOM:ETHCAD"
-            },
-            {
-              "description": "USD/CAD",
-              "proName": "FX:USDCAD"
-            }
-          ],
-          "showSymbolLogo": true,
-          "colorTheme": "dark",
-          "isTransparent": true,
-          "displayMode": "regular",
-          "locale": "en"
-        }
-      </script>
-    </div>
+<div class="tradingview-widget-container" id="dark">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "description": "深圳成指",
+      "proName": "SZSE:399106"
+    },
+    {
+      "description": "上证指数",
+      "proName": "SSE:000001"
+    },
+    {
+      "description": "英镑/人民币",
+      "proName": "FX_IDC:GBPCNY"
+    },
+    {
+      "description": "美元/人民币",
+      "proName": "FX_IDC:USDCNY"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "zh_CN"
+}
+  </script>
+</div>
     <!-- TradingView Widget END -->
     <script src="app.js"></script>
   </body>
